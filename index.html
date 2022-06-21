@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>NASA's API</title>
+</head>
+
+<body>
+    <div id="stars"></div>
+    <img id="sun" src="images/sun.png" alt="">
+    <div id="earthAstro">
+        <img id="earth" src="images/earth.gif" alt="">
+        <img id="astro1" src="images/astro1.gif" alt="">
+    </div>
+    <section>
+        <h2>NASA's Astronomy Picture Of The Day</h2>
+        <img src="images/nasa.png" alt="">
+        <p>Set a date and see the astronomy picture of the day.<br>
+            The default value is todays date.</p>
+        <div>
+            <input type="date">
+            <button>Get Info</button>
+        </div>
+        <span>(The videos are not included, so you might get the same picture)</span>
+    </section>
+    <article>
+        <p id="description"></p>
+        <img id="picture" src="" alt="">
+    </article>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
